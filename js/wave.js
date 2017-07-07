@@ -43,10 +43,10 @@ function getProgress(wave){
 function load(){
 	var modelname = document.getElementById("model-sel").value;
 	// Load Audio
-	drums.load('songs/'+ modelname +'/drums.wav');
-	bass.load('songs/'+ modelname +'/bass.wav');
-	vocals.load('songs/'+ modelname +'/vocals.wav');
-	other.load('songs/'+ modelname +'/other.wav');
+	drums.load('songs/'+ modelname +'/drums.mp3');
+	bass.load('songs/'+ modelname +'/bass.mp3');
+	vocals.load('songs/'+ modelname +'/vocals.mp3');
+	other.load('songs/'+ modelname +'/other.mp3');
 }
 ////////////////////////////////////////////////////////////
 
