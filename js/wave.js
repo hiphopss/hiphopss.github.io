@@ -289,7 +289,7 @@ document.onkeyup = function(e){
     if(e.keyCode == 32) playButton.click();
     if (e.keyCode == 37) backwardButton.click();
     if (e.keyCode == 39) forwardButton.click();
-    if (e.keyCode == 13) downloadButton.click();
+    //if (e.keyCode == 13) downloadButton.click();
 }
 // function setTimeAll(progress){
 // 	if(getProgress(bass) != progress) bass.seekTo(progress);
